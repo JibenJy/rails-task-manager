@@ -1,0 +1,15 @@
+
+
+<div class="container">
+    <%= form_for @task do |f| %>
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+
+        <%= f.label :details %>
+        <%= f.text_field :details %>
+            
+        <%= f.submit %>
+    <!-- form_for @object, html: { multipart: true }, do |f| -->
+    <!-- form_for @object, html: { class: "classname" }, do |f| -->
+    <% end %>
+</div>
